@@ -1,0 +1,186 @@
+# Copyright (C) 2019 rocketgenius
+# This file is distributed under the same license as the Gravity Forms Twilio Add-On plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Twilio Add-On 2.6\n"
+"Report-Msgid-Bugs-To: https://gravityforms.com/support\n"
+"Last-Translator: Gravity Forms <support@gravityforms.com>\n"
+"Language-Team: Gravity Forms <support@gravityforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-08-07T11:12:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.2.0\n"
+"X-Domain: gravityformstwilio\n"
+
+#. Plugin Name of the plugin
+msgid "Gravity Forms Twilio Add-On"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.gravityforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Integrates Gravity Forms with Twilio, allowing SMS messages to be sent upon submitting a Gravity Form."
+msgstr ""
+
+#. Author of the plugin
+msgid "rocketgenius"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.rocketgenius.com"
+msgstr ""
+
+#: class-gf-twilio.php:194
+msgid "Send SMS only when a payment is received."
+msgstr ""
+
+#: class-gf-twilio.php:218
+msgid "Twilio Account Information"
+msgstr ""
+
+#: class-gf-twilio.php:220
+msgid "Twilio provides a web-service API for businesses to build scalable and reliable communication apps. %1$s Sign up for a Twilio account%2$s to receive SMS messages when a Gravity Form is submitted."
+msgstr ""
+
+#: class-gf-twilio.php:227
+msgid "API Mode"
+msgstr ""
+
+#: class-gf-twilio.php:234
+msgid "Live"
+msgstr ""
+
+#: class-gf-twilio.php:238
+msgid "Test"
+msgstr ""
+
+#: class-gf-twilio.php:244
+msgid "Account SID"
+msgstr ""
+
+#: class-gf-twilio.php:251
+msgid "Auth Token"
+msgstr ""
+
+#: class-gf-twilio.php:258
+msgid "Test Account SID"
+msgstr ""
+
+#: class-gf-twilio.php:265
+msgid "Test Auth Token"
+msgstr ""
+
+#: class-gf-twilio.php:273
+msgid "Bitly Account Information"
+msgstr ""
+
+#: class-gf-twilio.php:275
+msgid "Bitly helps you shorten, track and analyze your links. Enter your Bitly account information below to automatically shorten URLs in your SMS message. If you don't have a Bitly account, %1$ssign-up for one here%2$s"
+msgstr ""
+
+#: class-gf-twilio.php:282
+msgid "Access Token"
+msgstr ""
+
+#: class-gf-twilio.php:289
+msgid "Login"
+msgstr ""
+
+#: class-gf-twilio.php:296
+msgid "API Key"
+msgstr ""
+
+#: class-gf-twilio.php:328
+msgid "Twilio Feed Settings"
+msgstr ""
+
+#: class-gf-twilio.php:333
+#: class-gf-twilio.php:339
+#: class-gf-twilio.php:685
+msgid "Name"
+msgstr ""
+
+#: class-gf-twilio.php:340
+msgid "Enter a feed name to uniquely identify this setup."
+msgstr ""
+
+#: class-gf-twilio.php:345
+#: class-gf-twilio.php:352
+#: class-gf-twilio.php:686
+msgid "From"
+msgstr ""
+
+#: class-gf-twilio.php:353
+msgid "Phone number or Alphanumeric Sender ID that the message will be sent FROM."
+msgstr ""
+
+#: class-gf-twilio.php:358
+#: class-gf-twilio.php:365
+#: class-gf-twilio.php:687
+msgid "To Number"
+msgstr ""
+
+#: class-gf-twilio.php:366
+msgid "Phone number to send this message to. For Twilio trial accounts, you can only send SMS messages to validated numbers. To validate a number, log in to your Twilio account and navigate to the 'Numbers' tab."
+msgstr ""
+
+#: class-gf-twilio.php:371
+#: class-gf-twilio.php:376
+msgid "Message"
+msgstr ""
+
+#: class-gf-twilio.php:377
+msgid "Write the SMS message you would like to be sent. You can insert fields submitted by the user by selecting them from the 'Insert merge code' drop down. SMS message are limited to 1600 characters. Messages larger than 1600 characters will automatically be split into multiple SMS messages."
+msgstr ""
+
+#: class-gf-twilio.php:387
+#: class-gf-twilio.php:390
+msgid "Shorten URLs"
+msgstr ""
+
+#: class-gf-twilio.php:391
+msgid "Enable this option to automatically shorten all URLs in your SMS message."
+msgstr ""
+
+#: class-gf-twilio.php:398
+#: class-gf-twilio.php:404
+msgid "Conditional Logic"
+msgstr ""
+
+#: class-gf-twilio.php:400
+msgid "Enable"
+msgstr ""
+
+#: class-gf-twilio.php:401
+msgid "Export to Twilio if"
+msgstr ""
+
+#: class-gf-twilio.php:405
+msgid "When conditional logic is enabled, form submissions will only be exported to Twilio when the condition is met. When disabled, all form submissions will be exported."
+msgstr ""
+
+#: class-gf-twilio.php:463
+#: class-gf-twilio.php:492
+msgid "Twilio Phone Numbers"
+msgstr ""
+
+#: class-gf-twilio.php:467
+msgid "Use Alphanumeric Sender ID"
+msgstr ""
+
+#: class-gf-twilio.php:488
+msgid "Phone Fields"
+msgstr ""
+
+#: class-gf-twilio.php:496
+msgid "Use Custom Phone Number"
+msgstr ""
+
+#: class-gf-twilio.php:778
+#: class-gf-twilio.php:912
+msgid "Unable to send SMS: %s (%d)"
+msgstr ""
