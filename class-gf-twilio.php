@@ -1732,12 +1732,13 @@ class GFTwilioLookup extends GFFeedAddOn {
 		// If API cannot be initialized, return.
 		if ( ! $this->initialize_api() ) {
 			echo 0;
+			wp_die();
 		}
-
-		echo $_POST['number'];
-		wp_die();
-
-		$phone_number = $twilio->lookups->v1->phoneNumbers("+15108675310")->fetch(array("type" => array("carrier")));
+		if ( ! isset( $_POST['number'] ) ) {
+			echo 0;
+			wp_die();
+		}
+		$phone_number = $this->twilio->lookups->v1->phoneNumbers($_POST['number'])->fetch(array("type" => array("carrier")));
 		echo json_encode($phone_number->carrier);
 
 		wp_die();
